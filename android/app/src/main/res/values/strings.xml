@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GPT</string>
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_map">Map</string>
+    <string name="title_chart">Chart</string>
+    <string name="new_add_product">Add Product</string>
+    <string name="new_date">Date*</string>
+    <string name="new_location">Location</string>
+    <string name="new_shop_name">Shop Name</string>
+    <string name="new_category_name">Category Name</string>
+    <string name="new_brand_name">Brand Name</string>
+    <string name="new_product_name">Product Name*</string>
+    <string name="new_description_and_specifications">Description and Specifications</string>
+    <string name="new_price">Price*</string>
+    <string name="new_currency">Currency</string>
+    <string name="new_photo">Photo</string>
+    <string name="new_remarks">Remarks</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_close">Close</string>
+    <string name="location_enable_title">Enable Location Services</string>
+    <string name="location_enable_msg">Location services are disabled. Please enable them in settings to use this feature.</string>
+    <string name="location_enable_open">Open Settings</string>
+    <string name="location_enable_cancel">Cancel</string>
+    <string name="location_fetch_fail_location">Unable to get location</string>
+    <string name="location_fetch_fail_current">Failed to get current location: </string>
+    <string name="photo_unable_load">Unable to load image</string>
+    <string name="photo_no_image">No image Selected</string>
+    <string name="db_insert_success">Insert success</string>
+    <string name="db_insert_error">Insert failed</string>
+    <string name="db_save_success">Save success</string>
+    <string name="db_save_error">Save failed</string>
+    <string name="db_delete_record">Remove record</string>
+    <string name="db_copy_record">Copy record</string>
+    <string name="validate_product_name">Product name is required.</string>
+    <string name="validate_price">Price must be greater than zero.</string>
+    <string name="validate_date">Date is required.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

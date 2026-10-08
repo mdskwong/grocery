@@ -1,0 +1,21 @@
+# ============================================================
+# Root-level .gitignore for the Grocery Price Tracker repo
+# ============================================================
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
