@@ -21,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA0000050000000000000001 /* GroceryPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000010000000000000001 /* GroceryPriceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryPriceTrackerApp.swift; sourceTree = "<group>"; };
 		AA0000010000000000000002 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		AA0000010000000000000003 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		AA0000010000000000000010 /* ProductMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMapView.swift; sourceTree = "<group>"; };
 		AA0000010000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0000010000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000050000000000000001 /* GroceryPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 			children = (
 				AA0000010000000000000005 /* MainTabView.swift */,
 				AA0000070000000000000006 /* Home */,
-				AA0000010000000000000009 /* PriceChartView.swift */,
-				AA0000010000000000000010 /* ProductMapView.swift */,
+				AA0000070000000000000008 /* Chart */,
+				AA0000070000000000000009 /* Map */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +112,22 @@
 				AA0000050000000000000001 /* GroceryPriceTracker.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000070000000000000008 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000010000000000000009 /* PriceChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		AA0000070000000000000009 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000010000000000000010 /* ProductMapView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,4 +337,3 @@
 	};
 	rootObject = AA0000040000000000000001 /* Project object */;
 }
-
